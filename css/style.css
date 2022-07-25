@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: var(--main-bg-color); 
+    font-family: 'Lato', sans-serif;
+}
+
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
+ .cart img {
+        width: 20px;
+        padding: 0 6px;
+}
+
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 100px;
+}
+
+nav ul li{
+    list-style: none; 
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{ 
+    font-weight: bolder;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 34px;
+    margin: 0 16px 0 56px;
+    padding:0 12px;
+}
+
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+}
+
+.slider{ 
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+
+.img1{
+    transform: translate(-8vw);  
+    animation: slide1 5s 5s  infinite;
+
+}
+
+.img2{
+    transform: translate(0vw);   
+    animation: slide2 5s 5s  infinite;
+}
+.img3{
+    transform: translate(8vw);
+    animation: slide3 5s 5s infinite;
+} 
+
+
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cards{
+    display: flex; 
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color); 
+    color: white;
+    font-family: 'Lato', sans-serif;
+}

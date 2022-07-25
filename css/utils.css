@@ -1,0 +1,56 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 5px 20px;
+    color: var(--main-bg-color);;
+    background: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    cursor: pointer; 
+}
+/* Using  */
+.my-1{
+    margin: 5px 0;
+}
+
+.my-2{
+    margin: 26px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+@keyframes slide1 {
+    0% {
+        transform: translate(-8vw);
+    }
+
+    100% {
+        transform: translate(100vw);
+}
+}
+
+@keyframes slide2 {
+    0% {
+        transform: translate(0vw);
+    }
+
+    100% {
+        transform: translate(100vw);
+}
+}
+
+@keyframes slide3 {
+    0% {
+        transform: translate(8vw);
+    }
+
+    100% {
+        transform: translate(100vw);
+}
+}
